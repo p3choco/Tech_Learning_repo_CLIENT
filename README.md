@@ -1,0 +1,6 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=p3choco_Tech_Learning_repo_CLIENT&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=p3choco_Tech_Learning_repo_CLIENT)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=p3choco_Tech_Learning_repo_CLIENT&metric=bugs)](https://sonarcloud.io/summary/new_code?id=p3choco_Tech_Learning_repo_CLIENT)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=p3choco_Tech_Learning_repo_CLIENT&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=p3choco_Tech_Learning_repo_CLIENT)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=p3choco_Tech_Learning_repo_CLIENT&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=p3choco_Tech_Learning_repo_CLIENT)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=p3choco_Tech_Learning_repo_CLIENT&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=p3choco_Tech_Learning_repo_CLIENT)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=p3choco_Tech_Learning_repo_CLIENT&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=p3choco_Tech_Learning_repo_CLIENT)
