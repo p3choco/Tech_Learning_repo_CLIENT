@@ -1,11 +1,12 @@
 import React, { createContext, useReducer, useContext } from 'react';
+import PropTypes from 'prop-types';
 
 const CartStateCtx = createContext([]);
 const CartDispCtx  = createContext(() => {});
 
 function cartReducer(state, action) {
     switch (action.type) {
-        case 'ADD_ITEM':
+        case 'ADD_ITEM': {
             const exists = state.find(i => i.id === action.payload.id);
             if (exists) {
                 return state.map(i =>
@@ -15,6 +16,7 @@ function cartReducer(state, action) {
                 );
             }
             return [...state, { ...action.payload, qty: 1 }];
+        }
 
         case 'CLEAR_CART':
             return [];
@@ -34,6 +36,10 @@ export function CartProvider({ children }) {
         </CartDispCtx.Provider>
     );
 }
+
+CartProvider.propTypes = {
+    children: PropTypes.node.isRequired,
+};
 
 export const useCart = () => useContext(CartStateCtx);
 export const useCartDispatch = () => useContext(CartDispCtx);

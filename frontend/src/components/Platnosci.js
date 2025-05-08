@@ -19,7 +19,7 @@ const Platnosci = () => {
                 items: cart
             });
             setStatus('success');
-            dispatch({ type: 'CLEAR_CART' });  // czyszczenie koszyka po sukcesie
+            dispatch({ type: 'CLEAR_CART' });  
         } catch (err) {
             console.error(err);
             setStatus('error');
@@ -31,7 +31,7 @@ const Platnosci = () => {
             <h2>Płatności</h2>
             <form onSubmit={handleSubmit}>
                 <div>
-                    <label>Imię:</label><br/>
+                    <label htmlFor="name">Imię:</label><br/>
                     <input
                         type="text"
                         value={name}
@@ -40,7 +40,7 @@ const Platnosci = () => {
                     />
                 </div>
                 <div>
-                    <label>Email:</label><br/>
+                    <label htmlFor="email">Email:</label><br/>
                     <input
                         type="email"
                         value={email}

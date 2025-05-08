@@ -5,7 +5,6 @@ import { useCart, useCartDispatch } from '../context/CartContext';
 
 function Koszyk() {
     const cart = useCart();
-    const dispatch = useCartDispatch();
 
     const saveCart = async () => {
         try {
